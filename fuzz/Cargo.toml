@@ -1,0 +1,49 @@
+[package]
+name = "atlas-hfsplus-fuzz"
+version = "0.0.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+publish = false
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+atlas-hfsplus = { path = ".." }
+atlas-fs-core = { version = "0.1", path = "X:/Documents/Coding/Projects/Libraries/Rust/atlas-fs-core" }
+
+# Keeps the fuzz crate out of the library's own build.
+[workspace]
+members = ["."]
+
+[profile.release]
+debug = 1
+
+[[bin]]
+name = "hfsplus_volume_header"
+path = "fuzz_targets/hfsplus_volume_header.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "hfsplus_mount"
+path = "fuzz_targets/hfsplus_mount.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "hfsplus_journal"
+path = "fuzz_targets/hfsplus_journal.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "decmpfs"
+path = "fuzz_targets/decmpfs.rs"
+test = false
+doc = false
+bench = false
