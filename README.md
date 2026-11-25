@@ -34,7 +34,7 @@ one and is not part of the stable API.
 
 ```toml
 [dependencies]
-atlas-hfsplus = "0.1"
+atlas-hfsplus = "26.0.1-a"
 ```
 
 Minimum supported Rust version: 1.88.
