@@ -6,6 +6,7 @@ rust-version = "1.88"
 license = "MIT OR Apache-2.0"
 description = "Read HFS+ and HFSX volumes: catalog and extents B-trees, hard links, decmpfs compression, extended attributes and journal replay."
 repository = "https://github.com/05Narwhal/atlas-hfsplus"
+homepage = "https://julianloy.com"
 readme = "README.md"
 keywords = ["hfsplus", "hfs", "filesystem", "macos", "parser"]
 categories = ["filesystem", "parser-implementations"]
