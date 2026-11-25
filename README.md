@@ -1,6 +1,6 @@
 # atlas-hfsplus
 
-<!-- badges -->[![crates.io](https://img.shields.io/crates/v/atlas-hfsplus.svg)](https://crates.io/crates/atlas-hfsplus) [![docs.rs](https://img.shields.io/docsrs/atlas-hfsplus)](https://docs.rs/atlas-hfsplus) [![CI](https://github.com/05Narwhal/atlas-hfsplus/actions/workflows/ci.yml/badge.svg)](https://github.com/05Narwhal/atlas-hfsplus/actions/workflows/ci.yml) ![License](https://img.shields.io/crates/l/atlas-hfsplus.svg)
+[![crates.io](https://img.shields.io/crates/v/atlas-hfsplus.svg)](https://crates.io/crates/atlas-hfsplus) [![docs.rs](https://img.shields.io/docsrs/atlas-hfsplus)](https://docs.rs/atlas-hfsplus) [![CI](https://github.com/05Narwhal/atlas-hfsplus/actions/workflows/ci.yml/badge.svg)](https://github.com/05Narwhal/atlas-hfsplus/actions/workflows/ci.yml) ![License](https://img.shields.io/crates/l/atlas-hfsplus.svg)
 
 A read-only HFS+ and HFSX reader. It implements `atlas_fs_core::fs::FileSystem`, so a mounted volume lists
 folders, looks up names, reads file forks and extended attributes, and scans the whole catalog through the
