@@ -17,7 +17,7 @@ authors = ["Julian A. Loy"]
 test-util = []
 
 [dependencies]
-atlas-fs-core = { version = "0.1", path = "X:/Documents/Coding/Projects/Libraries/Rust/atlas-fs-core" }
+atlas-fs-core = { version = "0.1", path = "../atlas-fs-core" }
 # LZFSE and LZVN decmpfs chunks (LZVN is decoded as an LZFSE `bvxn` block).
 lzfse_rust = "0.2"
 # zlib decmpfs chunks.
