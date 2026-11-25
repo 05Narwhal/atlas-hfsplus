@@ -1,12 +1,12 @@
 [package]
 name = "atlas-hfsplus"
-version = "26.0.1-a"
+version = "26.0.2-a"
 edition = "2024"
 rust-version = "1.88"
 license = "MIT OR Apache-2.0"
 description = "Read HFS+ and HFSX volumes: catalog and extents B-trees, hard links, decmpfs compression, extended attributes and journal replay."
 repository = "https://github.com/05Narwhal/atlas-hfsplus"
-homepage = "https://julianloy.com"
+documentation = "https://disk-atlas.julianloy.com/docs"
 readme = "README.md"
 keywords = ["hfsplus", "hfs", "filesystem", "macos", "parser"]
 categories = ["filesystem", "parser-implementations"]
@@ -17,7 +17,7 @@ authors = ["Julian A. Loy"]
 test-util = []
 
 [dependencies]
-atlas-fs-core = { version = "26.0.1-a", path = "../atlas-fs-core" }
+atlas-fs-core = { version = "26.0.2-a", path = "../atlas-fs-core" }
 # LZFSE and LZVN decmpfs chunks (LZVN is decoded as an LZFSE `bvxn` block).
 lzfse_rust = "0.2"
 # zlib decmpfs chunks.
